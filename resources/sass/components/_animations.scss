@@ -1,0 +1,20 @@
+.animated-fast {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+}
+
+@keyframes fadeInUpNav {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 12%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUpNav {
+  animation-name: fadeInUpNav;
+}

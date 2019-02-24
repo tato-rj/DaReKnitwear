@@ -1,0 +1,1 @@
+<p class="text-success"><small><i class="fas fa-truck mr-2"></i>Always free shipping & returns!</small></p>

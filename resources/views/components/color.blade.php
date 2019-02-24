@@ -1,0 +1,1 @@
+<div class="bg-{{$color}}" style="width: {{$size}}px; height: {{$size}}px; border-radius: 50%; margin: 3px 6px 0 0"></div>

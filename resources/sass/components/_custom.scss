@@ -1,0 +1,13 @@
+.btn, .alert, .form-control, .card, .card-header, .modal-content, .modal-header {
+  @extend .rounded-0;
+}
+
+.form-control, .form-control:focus {
+	background: transparent;
+	border: 0;
+	border-bottom: .05em solid rgba(0,0,0,0.25);
+}
+
+.col-default {
+  @extend .col-lg-8, .col-md-10, .col-12, .mx-auto;
+}

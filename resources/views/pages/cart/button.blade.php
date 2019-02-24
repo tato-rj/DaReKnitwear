@@ -1,0 +1,1 @@
+<button class="d-flex flex-center btn btn-outline-dark quantity-{{$type}}" style="width: 22px; font-size: .7rem"><i class="fas fa-{{$icon}}"></i></button>

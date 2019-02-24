@@ -1,0 +1,1 @@
+<div class="ti-close cursor-pointer remove {{$position ?? null}}" style="font-size: .8em"></div>
