@@ -2,17 +2,10 @@
 
 use Illuminate\Database\Seeder;
 use App\{Sweater, Inventory, Image};
-use Faker\Factory as Faker;
+
 
 class SweatersTableSeeder extends Seeder
 {
-    protected $faker;
-
-    public function __construct()
-    {
-        $this->faker = Faker::create();
-    }
-
     public function run()
     {
         $this->newSweater(
@@ -151,14 +144,7 @@ class SweatersTableSeeder extends Seeder
                 $count = mt_rand(1,6);
 
                 for ($i=0; $i<$count; $i++) {
-                    $sweater->reviews()->create([
-                        'name' => $this->faker->firstName . ' ' . $this->faker->lastName,
-                        'email' => $this->faker->freeEmail,
-                        'title' => $this->faker->sentence,
-                        'comment' => $this->faker->paragraph,
-                        'rating' => $this->faker->numberBetween(1,5),
-                        'created_at' => $this->faker->dateTimeBetween('-2 years' , 'now')
-                    ]);
+                    $sweater->reviews()->create(factory('App\Review')->make());
                 }
             }
         }
