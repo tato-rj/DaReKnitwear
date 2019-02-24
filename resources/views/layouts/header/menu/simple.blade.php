@@ -1,4 +1,4 @@
-<li class="nav-item p-4 t-2 {{$custom ?? null}}" {{!empty($modal) ? ' data-toggle=modal data-target=#' . $modal . '-modal' : null}}>
+<li class="nav-item p-3 t-2 {{$custom ?? null}}" {{!empty($modal) ? ' data-toggle=modal data-target=#' . $modal . '-modal' : null}}>
 
 	<a class="nav-link animated-fast t-2 {{!empty($icon) && $icon == 'shopping-cart' ? 'cart-icon' : null}}" href="{{$url ?? 'javascript:void(0)'}}">
 	
