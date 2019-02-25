@@ -49,16 +49,20 @@
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
-    $('body').keyup(function(e){
-       if(e.keyCode == 8) {
-            $logo = $('.logo img');
-            if ($logo.hasClass('icon-changed')) {
-                $logo.attr('src', $logo.attr('data-src1'));
-            } else {
-                $logo.attr('src', $logo.attr('data-src2'));
-            }        
-       }
-    });
+        document.addEventListener("keydown", function(event) {
+           if(event.which == 76) {
+                $logo = $('.logo img');
+
+                if ($logo.hasClass('icon-changed')) {
+                    $logo.attr('src', $logo.attr('data-src1'));
+                } else {
+                    $logo.attr('src', $logo.attr('data-src2'));
+                }
+
+                $logo.toggleClass('icon-changed');
+           }
+            console.log(event.which);
+        }
     </script>
 
     <script type="text/javascript">
