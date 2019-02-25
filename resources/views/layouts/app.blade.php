@@ -50,17 +50,18 @@
 
     <script type="text/javascript">
         document.addEventListener("keydown", function(event) {
-           if(event.which == 76) {
-                $logo = $('.logo img');
+            alert(event.which);
+           // if(event.which == 76) {
+           //      $logo = $('.logo img');
 
-                if ($logo.hasClass('icon-changed')) {
-                    $logo.attr('src', $logo.attr('data-src1'));
-                } else {
-                    $logo.attr('src', $logo.attr('data-src2'));
-                }
+           //      if ($logo.hasClass('icon-changed')) {
+           //          $logo.attr('src', $logo.attr('data-src1'));
+           //      } else {
+           //          $logo.attr('src', $logo.attr('data-src2'));
+           //      }
 
-                $logo.toggleClass('icon-changed');
-           }
+           //      $logo.toggleClass('icon-changed');
+           // }
             console.log(event.which);
         }
     </script>
