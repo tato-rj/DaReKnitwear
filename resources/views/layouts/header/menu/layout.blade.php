@@ -19,8 +19,10 @@
 
 			</ul>
 
-			<div class="logo t-2 text-center absolute-center">
-				<a class="link-inherit text-dark" href="{{route('home')}}">@include('components.logo', ['size' => '2.8em', 'direction' => 'horizontal'])</a>
+			<div class="logo t-2 text-center absolute-center h-100 p-1">
+				<a class="link-inherit text-dark" href="{{route('home')}}">
+					<img src="{{asset('images/brand/logo4.svg')}}" class="t-2 h-100">
+				</a>
 			</div>
 			
 			<ul class="navbar-nav mx-2">
