@@ -49,8 +49,9 @@
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
-        document.addEventListener("keydown", function(event) {
-            alert(event.which);
+$(document).keypress(function(e) {
+    alert(e.which);
+  if(e.which == 13) {
            // if(event.which == 76) {
            //      $logo = $('.logo img');
 
@@ -62,8 +63,9 @@
 
            //      $logo.toggleClass('icon-changed');
            // }
-            console.log(event.which);
-        }
+  }
+});
+
     </script>
 
     <script type="text/javascript">
