@@ -21,7 +21,7 @@
 
 			<div class="logo t-2 text-center absolute-center h-100">
 				<a class="link-inherit text-dark" href="{{route('home')}}">
-					<img src="{{asset('images/brand/logo4.svg')}}" class="t-2 h-100">
+					<img src="{{asset('images/brand/logo.svg')}}" data-src1="{{asset('images/brand/logo.svg')}}" data-src2="{{asset('images/brand/logo2.svg')}}" class="t-2 h-100">
 				</a>
 			</div>
 			

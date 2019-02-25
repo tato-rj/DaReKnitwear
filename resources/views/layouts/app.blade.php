@@ -49,6 +49,19 @@
     <script src="{{ mix('js/app.js') }}"></script>
 
     <script type="text/javascript">
+    $('body').keyup(function(e){
+       if(e.keyCode == 8) {
+            $logo = $('.logo img');
+            if ($logo.hasClass('icon-changed')) {
+                $logo.attr('src', $logo.attr('data-src1'));
+            } else {
+                $logo.attr('src', $logo.attr('data-src2'));
+            }        
+       }
+    });
+    </script>
+
+    <script type="text/javascript">
     // new HelperBadge({
     //     color: $('brand colors primary').css('color')
     // }); 
