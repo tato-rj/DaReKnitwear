@@ -50,20 +50,18 @@
 
     <script type="text/javascript">
 $(document).keypress(function(e) {
-    alert(e.which);
-  if(e.which == 13) {
-           // if(event.which == 76) {
-           //      $logo = $('.logo img');
 
-           //      if ($logo.hasClass('icon-changed')) {
-           //          $logo.attr('src', $logo.attr('data-src1'));
-           //      } else {
-           //          $logo.attr('src', $logo.attr('data-src2'));
-           //      }
+    if(e.which == 108) {
+        $logo = $('.logo img');
 
-           //      $logo.toggleClass('icon-changed');
-           // }
-  }
+        if ($logo.hasClass('icon-changed')) {
+            $logo.attr('src', $logo.attr('data-src1'));
+        } else {
+            $logo.attr('src', $logo.attr('data-src2'));
+        }
+
+        $logo.toggleClass('icon-changed');
+    }
 });
 
     </script>
