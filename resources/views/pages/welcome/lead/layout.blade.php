@@ -2,7 +2,7 @@
   <div id="main-carousel" class="carousel h-100 slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner w-100 h-100">
 
-      @include('pages.welcome.lead.view', ['background' => 1, 'title' => 'The Italian difference in knitwear', 'active' => true])
+      @include('pages.welcome.lead.view', ['background' => 1, 'title' => 'The gift of Italian excellence', 'active' => true])
 
 {{--       @include('pages.welcome.lead.view', ['background' => 1, 'title' => '100% Made in Italy', 'subtitle' => 'FINEST KNITWEAR', 'active' => false])
 
