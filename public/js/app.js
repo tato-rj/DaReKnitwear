@@ -86933,8 +86933,7 @@ $(window).scroll(function () {
     var scrollTop = $(this).scrollTop();
 
     if (scrollTop > limit) {
-        $header.removeClass('absolute-top').addClass('fixed-top shadow-sm');
-        $navbar.addClass('bg-white');
+        $header.removeClass('absolute-top').addClass('fixed-top shadow-sm bg-white');
         // $navItems.removeClass('p-3').addClass('p-2');
         // $logo.css('width', '120px');
         $logoText.css('font-size', '2.12em');
@@ -86942,8 +86941,7 @@ $(window).scroll(function () {
 
         if (!getCookie('cookie_consent')) $cookieAlert.show();
     } else {
-        $header.removeClass('fixed-top shadow-sm').addClass('absolute-top');
-        $navbar.removeClass('bg-white');
+        $header.removeClass('fixed-top shadow-sm bg-white').addClass('absolute-top');
         // $navItems.addClass('p-3').removeClass('p-2');
         // $logo.css('width', logoWidth);
         $logoText.css('font-size', '2.8em');
