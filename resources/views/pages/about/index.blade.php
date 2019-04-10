@@ -16,12 +16,13 @@
 
 </div>
 
+<div class="mb-5">
+	<img src="{{asset('images/brand/veneto.jpg')}}" class="w-100">
+</div>
+
 <div class="container mb-5">
 	<div class="row">
 		<div class="col-8 mx-auto text-justify">
-			<div class="mb-5">
-				<img src="{{asset('images/brand/veneto.jpg')}}" class="w-100">
-			</div>
 			<p class="text-primary"><strong>OUR HISTORY</strong></p>
 			<p>Mr. Avellino Da Re was a man with a humble background. He lived in the countryside, a few dozen kilometers from Venice, Italy. As a survivor of the Second World War, he was working in the markets, backbreaking work in early 1940. His wife, Libera, sixth of twelve siblings, was left under her aunt’s care in Vittorio Veneto, given the few resources that her family had. Her aunt owned a small knitwear factory and taught her the knitter job which Libera learned extremely well and quickly. Moreover, she offered her one of first knitwear machinery, a valuable gift at that time, which we proudly still conserve with care.</p>
 

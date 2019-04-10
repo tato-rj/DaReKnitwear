@@ -4,7 +4,7 @@
 @include('pages.welcome.lead.layout')
 
 <div class="mb-8">
-@include('components.bars.sustainability')
+{{-- @include('components.bars.sustainability') --}}
 </div>
 
 @include('pages.welcome.sections.overview.layout')

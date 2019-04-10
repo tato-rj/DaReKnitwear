@@ -1,4 +1,4 @@
-<section class="container-fluid p-0">
+<section class="container-fluid p-0 my-6">
 	<div class="row no-gutters">
 		<div class="col-8 mx-auto">
 			<div id="testimonials" class="carousel slide" data-ride="carousel">
