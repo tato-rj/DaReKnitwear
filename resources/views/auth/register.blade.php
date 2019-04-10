@@ -4,7 +4,7 @@
 <div class="d-flex flex-center h-100">
     <div class="row">
         <div class="col-12 mb-3 text-center">
-            <img src="{{asset('images/brand/logo3.svg')}}" style="width: 180px" class="mb-3">
+            <img src="{{asset('images/brand/logo.svg')}}" style="width: 180px" class="mb-3">
 
             <h1 class="display-4 mb-0" style="font-size: 1.8em">Create your account</h1>
         </div>
