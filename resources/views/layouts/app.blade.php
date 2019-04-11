@@ -11,6 +11,8 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/f3158776e19c643befb71aadfe4e1efe?family=LTCBodoni175W00-Bold" rel="stylesheet" type="text/css"/>
+
 
     <script>
         window.app = <?php echo json_encode([
