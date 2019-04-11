@@ -7,7 +7,7 @@
             <h1 class="serif" style="font-size: 62px">{{$title}}</h1>
             {{-- <p class="lead mb-0">{{$subtitle}}</p> --}}
           </div>
-          <a href="{{route('products.index')}}" class="btn btn-primary btn-wide" style="padding: 14px 28px">SHOP NOW</a>
+          <a href="{{route('products.index')}}" class="btn btn-primary btn-wide" style="padding: 14px 28px !important">SHOP NOW</a>
         </div>
       </div>
     </div>
